@@ -34,4 +34,4 @@ You're good to go, mate, if all you want to do is hand someone this code on pape
 4. Time
 5. smtplib
 6. ssl (pip install ssl)
->Time, random and smtplib is part of python's standard library, so you do not have to install it via command prompt or cmd. Just in case if you experience installation errors, check for the solution the same.
+>Time, random and smtplib is part of python's standard library, so you do not have to install it via command prompt or cmd. Just in case if you experience installation errors, check for the solution online.
