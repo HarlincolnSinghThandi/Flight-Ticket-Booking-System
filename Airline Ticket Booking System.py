@@ -10,8 +10,8 @@ try:
 
     DB = mysql.connector.connect(
         host = "localhost",
-        user = "Lincoln",
-        password = "lincoln110904@"
+        user = "#USERNAME#",
+        password = "#YOUR SQL PASSWORD#"
     )
     SQLcursor = DB.cursor()
 
@@ -41,12 +41,12 @@ try:
             win = Tk()
 
             win.title("Flight Ticket Booking System System")
-            win.iconbitmap("C:/Users/keepa/OneDrive/Desktop/icon.ico")
+            win.iconbitmap("#PASTE THE LOCATION YOU COPIED OF ICON.ICO FILE#")
 
             win.maxsize(width=1000, height=700)
             win.minsize(width=1000, height=700)
 
-            icon = PhotoImage(file='C:/Users/hlinc/OneDrive/Desktop/icon.png')
+            icon = PhotoImage(file='#PASTE THE LOCATION YOU COPIED OF ICON.PNG FILE#')
             icon_label = Label(win, image=icon)
             icon_label.place(x=330, y=100)
             system_name_label = Label(win, text="Flight Ticket Booking System", font=("Calibri", 40, BOLD))
@@ -392,7 +392,7 @@ try:
                                                 save_flightSelection_and_continue.place_forget()
                                                 
                                                 win.title("Flight Ticket Booking System System - Passenger Details")
-                                                win.iconbitmap("C:/Users/keepa/OneDrive/Desktop/icon.ico")
+                                                win.iconbitmap("#PASTE THE LOCATION YOU COPIED OF ICON.ICO FILE#")
                                                 win.maxsize(width=1000, height=70)
                                                 win.minsize(width=1000, height=700)
 
@@ -431,7 +431,7 @@ try:
                                                 def onClick_passenger_unique_mark_info():
                                                     win_unique_mark_info = Tk()
                                                     win_unique_mark_info.title("Flight Ticket Booking System System - Unique Mark Info")
-                                                    win_unique_mark_info.iconbitmap("C:/Users/keepa/OneDrive/Desktop/icon.ico")
+                                                    win_unique_mark_info.iconbitmap("#PASTE THE LOCATION YOU COPIED OF ICON.ICO FILE#")
                                                     win_unique_mark_info.maxsize(width=600, height=200)
                                                     win_unique_mark_info.minsize(width=600, height=200)
 
@@ -626,9 +626,9 @@ try:
 
                                                                     port = 465   
                                                                     smtp_server = "smtp.gmail.com"
-                                                                    flight_ticket_booking_system_email = "flightticketbookingsystem@gmail.com"
+                                                                    flight_ticket_booking_system_email = "#GOOGLE ACCOUNT EMAIL#"
                                                                     users_email = user_email_id_entry.get()
-                                                                    flight_ticket_booking_system_password = 'flightticketbookingsystemMADEBYHARLINCOLN@110904'
+                                                                    flight_ticket_booking_system_password = '#GOOGLE ACCOUNT PASSWORD#'
                                                                     email_body = user_email_body
                                                                     context = ssl.create_default_context()
                                                                     with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
@@ -645,9 +645,9 @@ try:
                                                                     def resend_email():
                                                                         port = 465
                                                                         smtp_server = "smtp.gmail.com"
-                                                                        flight_ticket_booking_system_email = "flightticketbookingsystem@gmail.com"
+                                                                        flight_ticket_booking_system_email = "#GOOGLE ACCOUNT EMAIL#"
                                                                         users_email = user_email_id_entry.get()
-                                                                        flight_ticket_booking_system_password = 'flightticketbookingsystemMADEBYHARLINCOLN@110904'
+                                                                        flight_ticket_booking_system_password = '#GOOGLE ACCOUNT PASSWORD#'
                                                                         email_body = user_email_body
 
                                                                         context = ssl.create_default_context()
@@ -746,7 +746,7 @@ try:
                                                 save_flightSelection_and_continue.place_forget()
                                                 
                                                 win.title("Flight Ticket Booking System System - Passenger Details")
-                                                win.iconbitmap("C:/Users/keepa/OneDrive/Desktop/icon.ico")
+                                                win.iconbitmap("#PASTE THE LOCATION YOU COPIED OF ICON.ICO FILE#")
                                                 win.maxsize(width=1000, height=70)
                                                 win.minsize(width=1000, height=700)
 
@@ -785,7 +785,7 @@ try:
                                                 def onClick_passenger_unique_mark_info():
                                                     win_unique_mark_info = Tk()
                                                     win_unique_mark_info.title("Flight Ticket Booking System System - Unique Mark Info")
-                                                    win_unique_mark_info.iconbitmap("C:/Users/keepa/OneDrive/Desktop/icon.ico")
+                                                    win_unique_mark_info.iconbitmap("#PASTE THE LOCATION YOU COPIED OF ICON.ICO FILE#")
                                                     win_unique_mark_info.maxsize(width=600, height=200)
                                                     win_unique_mark_info.minsize(width=600, height=200)
 
@@ -980,9 +980,9 @@ try:
 
                                                                     port = 465   
                                                                     smtp_server = "smtp.gmail.com"
-                                                                    flight_ticket_booking_system_email = "flightticketbookingsystem@gmail.com"
+                                                                    flight_ticket_booking_system_email = "#GOOGLE ACCOUNT EMAIL#"
                                                                     users_email = user_email_id_entry.get()
-                                                                    flight_ticket_booking_system_password = 'flightticketbookingsystemMADEBYHARLINCOLN@110904'
+                                                                    flight_ticket_booking_system_password = '#GOOGLE ACCOUNT PASSWORD#'
                                                                     email_body = user_email_body
                                                                     context = ssl.create_default_context()
                                                                     with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
@@ -999,9 +999,9 @@ try:
                                                                     def resend_email():
                                                                         port = 465
                                                                         smtp_server = "smtp.gmail.com"
-                                                                        flight_ticket_booking_system_email = "flightticketbookingsystem@gmail.com"
+                                                                        flight_ticket_booking_system_email = "#GOOGLE ACCOUNT EMAIL#"
                                                                         users_email = user_email_id_entry.get()
-                                                                        flight_ticket_booking_system_password = 'flightticketbookingsystemMADEBYHARLINCOLN@110904'
+                                                                        flight_ticket_booking_system_password = '#GOOGLE ACCOUNT PASSWORD#'
                                                                         email_body = user_email_body
 
                                                                         context = ssl.create_default_context()
@@ -1100,7 +1100,7 @@ try:
                                                 save_flightSelection_and_continue.place_forget()
                                                 
                                                 win.title("Flight Ticket Booking System System - Passenger Details")
-                                                win.iconbitmap("C:/Users/keepa/OneDrive/Desktop/icon.ico")
+                                                win.iconbitmap("#PASTE THE LOCATION YOU COPIED OF ICON.ICO FILE#")
                                                 win.maxsize(width=1000, height=70)
                                                 win.minsize(width=1000, height=700)
 
@@ -1139,7 +1139,7 @@ try:
                                                 def onClick_passenger_unique_mark_info():
                                                     win_unique_mark_info = Tk()
                                                     win_unique_mark_info.title("Flight Ticket Booking System System - Unique Mark Info")
-                                                    win_unique_mark_info.iconbitmap("C:/Users/keepa/OneDrive/Desktop/icon.ico")
+                                                    win_unique_mark_info.iconbitmap("#PASTE THE LOCATION YOU COPIED OF ICON.ICO FILE#")
                                                     win_unique_mark_info.maxsize(width=600, height=200)
                                                     win_unique_mark_info.minsize(width=600, height=200)
 
@@ -1334,9 +1334,9 @@ try:
 
                                                                     port = 465   
                                                                     smtp_server = "smtp.gmail.com"
-                                                                    flight_ticket_booking_system_email = "flightticketbookingsystem@gmail.com"
+                                                                    flight_ticket_booking_system_email = "#GOOGLE ACCOUNT EMAIL#"
                                                                     users_email = user_email_id_entry.get()
-                                                                    flight_ticket_booking_system_password = 'flightticketbookingsystemMADEBYHARLINCOLN@110904'
+                                                                    flight_ticket_booking_system_password = '#GOOGLE ACCOUNT PASSWORD#'
                                                                     email_body = user_email_body
                                                                     context = ssl.create_default_context()
                                                                     with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
@@ -1353,9 +1353,9 @@ try:
                                                                     def resend_email():
                                                                         port = 465
                                                                         smtp_server = "smtp.gmail.com"
-                                                                        flight_ticket_booking_system_email = "flightticketbookingsystem@gmail.com"
+                                                                        flight_ticket_booking_system_email = "#GOOGLE ACCOUNT EMAIL#"
                                                                         users_email = user_email_id_entry.get()
-                                                                        flight_ticket_booking_system_password = 'flightticketbookingsystemMADEBYHARLINCOLN@110904'
+                                                                        flight_ticket_booking_system_password = '#GOOGLE ACCOUNT PASSWORD#'
                                                                         email_body = user_email_body
 
                                                                         context = ssl.create_default_context()
@@ -1454,7 +1454,7 @@ try:
                                                 save_flightSelection_and_continue.place_forget()
                                                 
                                                 win.title("Flight Ticket Booking System System - Passenger Details")
-                                                win.iconbitmap("C:/Users/keepa/OneDrive/Desktop/icon.ico")
+                                                win.iconbitmap("#PASTE THE LOCATION YOU COPIED OF ICON.ICO FILE#")
                                                 win.maxsize(width=1000, height=70)
                                                 win.minsize(width=1000, height=700)
 
@@ -1493,7 +1493,7 @@ try:
                                                 def onClick_passenger_unique_mark_info():
                                                     win_unique_mark_info = Tk()
                                                     win_unique_mark_info.title("Flight Ticket Booking System System - Unique Mark Info")
-                                                    win_unique_mark_info.iconbitmap("C:/Users/keepa/OneDrive/Desktop/icon.ico")
+                                                    win_unique_mark_info.iconbitmap("#PASTE THE LOCATION YOU COPIED OF ICON.ICO FILE#")
                                                     win_unique_mark_info.maxsize(width=600, height=200)
                                                     win_unique_mark_info.minsize(width=600, height=200)
 
@@ -1688,9 +1688,9 @@ try:
 
                                                                     port = 465   
                                                                     smtp_server = "smtp.gmail.com"
-                                                                    flight_ticket_booking_system_email = "flightticketbookingsystem@gmail.com"
+                                                                    flight_ticket_booking_system_email = "#GOOGLE ACCOUNT EMAIL#"
                                                                     users_email = user_email_id_entry.get()
-                                                                    flight_ticket_booking_system_password = 'flightticketbookingsystemMADEBYHARLINCOLN@110904'
+                                                                    flight_ticket_booking_system_password = '#GOOGLE ACCOUNT PASSWORD#'
                                                                     email_body = user_email_body
                                                                     context = ssl.create_default_context()
                                                                     with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
@@ -1707,9 +1707,9 @@ try:
                                                                     def resend_email():
                                                                         port = 465
                                                                         smtp_server = "smtp.gmail.com"
-                                                                        flight_ticket_booking_system_email = "flightticketbookingsystem@gmail.com"
+                                                                        flight_ticket_booking_system_email = "#GOOGLE ACCOUNT EMAIL#"
                                                                         users_email = user_email_id_entry.get()
-                                                                        flight_ticket_booking_system_password = 'flightticketbookingsystemMADEBYHARLINCOLN@110904'
+                                                                        flight_ticket_booking_system_password = '#GOOGLE ACCOUNT PASSWORD#'
                                                                         email_body = user_email_body
 
                                                                         context = ssl.create_default_context()
@@ -1809,7 +1809,7 @@ try:
                                                 save_flightSelection_and_continue.place_forget()
                                                 
                                                 win.title("Flight Ticket Booking System System - Passenger Details")
-                                                win.iconbitmap("C:/Users/keepa/OneDrive/Desktop/icon.ico")
+                                                win.iconbitmap("#PASTE THE LOCATION YOU COPIED OF ICON.ICO FILE#")
                                                 win.maxsize(width=1000, height=70)
                                                 win.minsize(width=1000, height=700)
 
@@ -1845,10 +1845,10 @@ try:
                                                 passenger_unique_mark_entry = Entry(win, width=30, font=("Calibri", 20))
                                                 passenger_unique_mark_entry.place(x=192, y=267)
 
-                                                def onClick_passenger_unique_mark_info():
+                                                def onClick_passenger_unique_mark_info():icon.ico
                                                     win_unique_mark_info = Tk()
                                                     win_unique_mark_info.title("Flight Ticket Booking System System - Unique Mark Info")
-                                                    win_unique_mark_info.iconbitmap("C:/Users/keepa/OneDrive/Desktop/icon.ico")
+                                                    win_unique_mark_info.iconbitmap("#PASTE THE LOCATION YOU COPIED OF ICON.ICO FILE#")
                                                     win_unique_mark_info.maxsize(width=600, height=200)
                                                     win_unique_mark_info.minsize(width=600, height=200)
 
@@ -2044,9 +2044,9 @@ try:
 
                                                                     port = 465   
                                                                     smtp_server = "smtp.gmail.com"
-                                                                    flight_ticket_booking_system_email = "flightticketbookingsystem@gmail.com"
+                                                                    flight_ticket_booking_system_email = "#GOOGLE ACCOUNT EMAIL#"
                                                                     users_email = user_email_id_entry.get()
-                                                                    flight_ticket_booking_system_password = 'flightticketbookingsystemMADEBYHARLINCOLN@110904'
+                                                                    flight_ticket_booking_system_password = '#GOOGLE ACCOUNT PASSWORD#'
                                                                     email_body = user_email_body
                                                                     context = ssl.create_default_context()
                                                                     with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
@@ -2063,9 +2063,9 @@ try:
                                                                     def resend_email():
                                                                         port = 465
                                                                         smtp_server = "smtp.gmail.com"
-                                                                        flight_ticket_booking_system_email = "flightticketbookingsystem@gmail.com"
+                                                                        flight_ticket_booking_system_email = "#GOOGLE ACCOUNT EMAIL#"
                                                                         users_email = user_email_id_entry.get()
-                                                                        flight_ticket_booking_system_password = 'flightticketbookingsystemMADEBYHARLINCOLN@110904'
+                                                                        flight_ticket_booking_system_password = '#GOOGLE ACCOUNT PASSWORD#'
                                                                         email_body = user_email_body
 
                                                                         context = ssl.create_default_context()
