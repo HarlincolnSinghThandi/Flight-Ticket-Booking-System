@@ -7,7 +7,7 @@ You're good to go, mate, if all you want to do is hand someone this code on pape
 
 ---
 
-## INSTRUCTIONS FOR YOU RELATED TO PROPER WORKING OF THE CODE
+## <ins>INSTRUCTIONS FOR YOU RELATED TO PROPER WORKING OF THE CODE</ins>
 
 👉 Save both the icon files (icon.ico and icon.png) in your destop.
 
@@ -15,16 +15,23 @@ You're good to go, mate, if all you want to do is hand someone this code on pape
 
 👉 Anything written between the two # tags in the code is the instruction(s) for you. Read the instruction and then replace that line of the code as the given instruction.
 
+👉 There's a separate file (Create Table. in this repository to create tables for storing user/customer data in this project. You may run the file to create tables. This is completely optional, even if you don't run this file, tables will however be created when you run the main file (FlightTicketBookingSystem.py).
+
 👉 At the end of the ticket booking process, the system send you the email with all of your details. So you may need to create a google account to send the email and disable the gmail's SMTP settings, check online how to do so.
 >I created a new google account to send emails, you may do the same and delete the account when you're done with your project
 
 ---
 
-## PACKAGES YOU NEED BEFORE PUTTING YOUR HANDS ON THIS PROJECT
-1. Tkinter
-2. MySql Connecter
+## <ins>PACKAGES YOU NEED BEFORE PUTTING YOUR HANDS ON THIS PROJECT</ins>
+### BASIC REQUIREMENTS
+1. Python (install python version that supports Tkinter and MySQL Connector, for example, python version 3.7 or 3.8)
+2. MySQL
+
+### PACKAGE REQUIREMENTS
+1. Tkinter (pip install tk)
+2. MySQL Connecter (pip install mysql-connector-python)
 3. Random
 4. Time
 5. smtplib
-6. ssl
->Time and Random package comes with python so you don't need to install it via command prompt or cmd.
+6. ssl (pip install ssl)
+>Time, random and smtplib is part of python's standard library, so you do not have to install it via command prompt or cmd. Just in case if you experience installation errors, check for the solution the same.
