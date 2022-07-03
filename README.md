@@ -7,6 +7,11 @@ Wishing you luck 👍
 
 ---
 
-#Save both the icon files in your destop.
+👉 Save both the icon files (icon.ico and icon.png) in your destop.
 
-#Make sure you copy the location of the icon files and paste it in the code wherever required else you may experience errors.
+👉 Make sure you copy the location of the icon files and paste it in the code wherever required else you may experience errors.
+
+👉 Anything written between the two # tags in the code is the instruction(s) for you. Read the instruction and then replace that line of the code as the given instruction.
+
+👉 At the end of the ticket booking process, the system send you the email with all of your details. So you may need to create a google account to send the email and disable the gmail's SMTP settings (check online how to do so).
+   🔯 I created a new google account to send emails, you may do the same and delete the account when you're done with your project.
