@@ -2,7 +2,7 @@ CREATE DATABASE Airline_Ticket_Info;
 
 USE Airline_Ticket_Info;
 
-CREATE TABLE signup_info (
+CREATE TABLE signup_info(
 	unique_user_id INT NOT NULL,
     first_name VARCHAR(100) NOT NULL,
     last_name VARCHAR(100) NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE signup_info (
     PRIMARY KEY(unique_user_id)
 );
 
-CREATE TABLE passenger_flight_info (
+CREATE TABLE passenger_flight_info(
 	unique_user_id INT NOT NULL,
     passenger_full_name VARCHAR(500),
     passenger_contact_no INT, 
