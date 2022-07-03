@@ -15,7 +15,7 @@ You're good to go, mate, if all you want to do is hand someone this code on pape
 
 👉 Anything written between the two # tags in the code is the instruction(s) for you. Read the instruction and then replace that line of the code as the given instruction.
 
-👉 There's a separate file (Create Table. in this repository to create tables for storing user/customer data in this project. You may run the file to create tables. This is completely optional, even if you don't run this file, tables will however be created when you run the main file (FlightTicketBookingSystem.py).
+👉 There's a separate file (CreateTable.sql) in this repository to create tables for storing user/customer data in this project. You may run the file to create tables. This is completely optional, even if you don't run this file, tables will however be created when you run the main file (FlightTicketBookingSystem.py).
 
 👉 At the end of the ticket booking process, the system send you the email with all of your details. So you may need to create a google account to send the email and disable the gmail's SMTP settings, check online how to do so.
 >I created a new google account to send emails, you may do the same and delete the account when you're done with your project
