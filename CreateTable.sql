@@ -10,7 +10,7 @@ CREATE TABLE signup_info(
     email_id VARCHAR(100) NOT NULL,
     user_password VARCHAR(500) CHARACTER SET BINARY NOT NULL,
     PRIMARY KEY(unique_user_id)
-);
+); 
 
 CREATE TABLE passenger_flight_info(
 	unique_user_id INT NOT NULL,
