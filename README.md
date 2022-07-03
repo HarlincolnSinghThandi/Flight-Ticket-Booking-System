@@ -4,3 +4,6 @@ As part of my grade XII school project, I created this system for booking airlin
 You're good to go, mate, if all you want to do is hand someone this code on paper without running it on a computer. If you run this project on a computer, you might find it to be incomplete, but as long as you don't plan on showing it to anyone, you shouldn't be concerned 😁
 
 Wishing you luck 👍
+
+ Save both the icon files in your destop.
+ Make sure you copy the location of the icon files and paste it in the code wherever required else you may experience errors.
