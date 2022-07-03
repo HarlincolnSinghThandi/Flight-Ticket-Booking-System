@@ -5,6 +5,8 @@ You're good to go, mate, if all you want to do is hand someone this code on pape
 
 Wishing you luck 👍
 
+---
+
 #Save both the icon files in your destop.
 
 #Make sure you copy the location of the icon files and paste it in the code wherever required else you may experience errors.
