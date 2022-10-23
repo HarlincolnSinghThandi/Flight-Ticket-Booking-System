@@ -17,7 +17,7 @@ For my grade XII school project, I made this system to book airline tickets in P
 👉 There is a separate file (CreateTable.sql) in this repository to create tables for storing user/customer data in this project. You may run the file in command prompt (CMD in short) or in MySQL Workbench to create tables. This is completely optional, even if you don't run this file, tables will however be created when you run the main file (FlightTicketBookingSystem.py).
 
 👉 At the end of the ticket booking process, the system wil send the user an email with all of his/her details. Therefore, you need to create a google account to send the email and disable the gmail's SMTP settings, check online how to do so.
->I created a new google account to send emails, you may do the same and delete the account when you're done with your project
+>I created a new google account to send emails, you may do the same and delete the account when you are done with the project.
 
 ---
 
